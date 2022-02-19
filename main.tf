@@ -1,5 +1,5 @@
-resource "google_cloud_run_service" "edemdevsecopsjv" {
-  name     = "edemdevsecopsjv"
+resource "google_cloud_run_service" "edemdevsecops" {
+  name     = "edemdevsecops"
   location = var.region
 
   template {
